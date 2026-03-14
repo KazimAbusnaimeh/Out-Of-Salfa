@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/main_root"
+        android:id="@+id/splash_root"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".SplashActivity">
 
         <androidx.fragment.app.FragmentContainerView
-            android:id="@+id/main_nav_host"
+            android:id="@+id/splash_nav_host"
             android:name="androidx.navigation.fragment.NavHostFragment"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -19,7 +19,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:navGraph="@navigation/main_nav_graph" />
+            app:navGraph="@navigation/splash_nav_graph" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
