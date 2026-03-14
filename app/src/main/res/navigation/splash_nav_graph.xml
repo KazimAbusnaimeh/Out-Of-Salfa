@@ -7,5 +7,5 @@
     <fragment
         android:id="@+id/splashFragment"
         android:name="com.kazim.outofsalfa.SplashFragment"
-        android:label="Splash" />
+        android:label="@string/nav_splash" />
 </navigation>
